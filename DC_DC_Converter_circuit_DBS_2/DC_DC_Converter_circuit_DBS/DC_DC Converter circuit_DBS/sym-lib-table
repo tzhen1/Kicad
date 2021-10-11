@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name corsel_dc_dc_conn)(type Legacy)(uri ${KIPRJMOD}/corsel_dc_dc_conn.lib)(options "")(descr ""))
+)

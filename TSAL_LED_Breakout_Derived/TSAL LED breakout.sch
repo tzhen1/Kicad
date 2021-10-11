@@ -1,0 +1,220 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "TSAL LED Breakout"
+Date "2021-04-14"
+Rev "1.0"
+Comp "Formula Student"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+3.3V #PWR0101
+U 1 1 60775D59
+P 5150 3150
+F 0 "#PWR0101" H 5150 3000 50  0001 C CNN
+F 1 "+3.3V" H 5165 3323 50  0000 C CNN
+F 2 "" H 5150 3150 50  0001 C CNN
+F 3 "" H 5150 3150 50  0001 C CNN
+	1    5150 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 607779A2
+P 5200 3800
+F 0 "R1" H 5259 3846 50  0000 L CNN
+F 1 "22" H 5259 3755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 5200 3800 50  0001 C CNN
+F 3 "~" H 5200 3800 50  0001 C CNN
+	1    5200 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 60778BBD
+P 5000 3400
+F 0 "D1" V 5039 3282 50  0000 R CNN
+F 1 "LED" V 4948 3282 50  0000 R CNN
+F 2 "TSAL_LEDS_FOOTPRINT:LED_KT DDLM31.13" H 5000 3400 50  0001 C CNN
+F 3 "~" H 5000 3400 50  0001 C CNN
+	1    5000 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 6077E466
+P 5350 3400
+F 0 "D2" V 5389 3282 50  0000 R CNN
+F 1 "LED" V 5298 3282 50  0000 R CNN
+F 2 "TSAL_LEDS_FOOTPRINT:LED_KT DDLM31.13" H 5350 3400 50  0001 C CNN
+F 3 "~" H 5350 3400 50  0001 C CNN
+	1    5350 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 3150 5350 3250
+Wire Wire Line
+	5000 3250 5000 3150
+Wire Wire Line
+	5350 3600 5350 3550
+Wire Wire Line
+	5000 3600 5000 3550
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 6079464C
+P 4300 3750
+F 0 "J1" H 4380 3792 50  0000 L CNN
+F 1 "Conn_01x03" H 4380 3701 50  0000 L CNN
+F 2 "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical" H 4300 3750 50  0001 C CNN
+F 3 "~" H 4300 3750 50  0001 C CNN
+	1    4300 3750
+	1    0    0    -1  
+$EndComp
+Text GLabel 4000 3750 0    50   Input ~ 0
+Path_Red
+$Comp
+L power:+3.3V #PWR0102
+U 1 1 60795585
+P 4000 3650
+F 0 "#PWR0102" H 4000 3500 50  0001 C CNN
+F 1 "+3.3V" H 4015 3823 50  0000 C CNN
+F 2 "" H 4000 3650 50  0001 C CNN
+F 3 "" H 4000 3650 50  0001 C CNN
+	1    4000 3650
+	1    0    0    -1  
+$EndComp
+Text GLabel 5200 4050 0    50   Input ~ 0
+Path_Red
+$Comp
+L power:+3.3V #PWR0103
+U 1 1 607D109F
+P 6000 3150
+F 0 "#PWR0103" H 6000 3000 50  0001 C CNN
+F 1 "+3.3V" H 6015 3323 50  0000 C CNN
+F 2 "" H 6000 3150 50  0001 C CNN
+F 3 "" H 6000 3150 50  0001 C CNN
+	1    6000 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 607D10A5
+P 6050 3800
+F 0 "R2" H 6109 3846 50  0000 L CNN
+F 1 "22" H 6109 3755 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 6050 3800 50  0001 C CNN
+F 3 "~" H 6050 3800 50  0001 C CNN
+	1    6050 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D5
+U 1 1 607D10AB
+P 5850 3400
+F 0 "D5" V 5889 3282 50  0000 R CNN
+F 1 "LED" V 5798 3282 50  0000 R CNN
+F 2 "TSAL_LEDS_FOOTPRINT:LED_KT DDLM31.13" H 5850 3400 50  0001 C CNN
+F 3 "~" H 5850 3400 50  0001 C CNN
+	1    5850 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D6
+U 1 1 607D10B1
+P 6200 3400
+F 0 "D6" V 6239 3282 50  0000 R CNN
+F 1 "LED" V 6148 3282 50  0000 R CNN
+F 2 "TSAL_LEDS_FOOTPRINT:LED_KT DDLM31.13" H 6200 3400 50  0001 C CNN
+F 3 "~" H 6200 3400 50  0001 C CNN
+	1    6200 3400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 3150 6200 3250
+Wire Wire Line
+	5850 3250 5850 3150
+Wire Wire Line
+	6200 3600 6200 3550
+Wire Wire Line
+	5850 3600 5850 3550
+Wire Wire Line
+	5850 3600 6050 3600
+Text GLabel 6050 4050 0    50   Input ~ 0
+Path_Green
+Text GLabel 4000 3850 0    50   Input ~ 0
+Path_Green
+Wire Wire Line
+	4000 3850 4100 3850
+Wire Wire Line
+	4000 3750 4100 3750
+Wire Wire Line
+	4000 3650 4100 3650
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 607D7EFE
+P 7150 3150
+F 0 "H1" V 7104 3300 50  0000 L CNN
+F 1 "MountingHole_Pad" V 7195 3300 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7150 3150 50  0001 C CNN
+F 3 "~" H 7150 3150 50  0001 C CNN
+	1    7150 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 607D9688
+P 7150 3350
+F 0 "H2" V 7104 3500 50  0000 L CNN
+F 1 "MountingHole_Pad" V 7195 3500 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7150 3350 50  0001 C CNN
+F 3 "~" H 7150 3350 50  0001 C CNN
+	1    7150 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 607D98FF
+P 7150 3550
+F 0 "H3" V 7104 3700 50  0000 L CNN
+F 1 "MountingHole_Pad" V 7195 3700 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 7150 3550 50  0001 C CNN
+F 3 "~" H 7150 3550 50  0001 C CNN
+	1    7150 3550
+	0    1    1    0   
+$EndComp
+NoConn ~ 7050 3150
+NoConn ~ 7050 3350
+NoConn ~ 7050 3550
+Wire Wire Line
+	5200 4050 5200 3900
+Wire Wire Line
+	5000 3600 5200 3600
+Wire Wire Line
+	5200 3700 5200 3600
+Connection ~ 5200 3600
+Wire Wire Line
+	5200 3600 5350 3600
+Wire Wire Line
+	6050 4050 6050 3900
+Wire Wire Line
+	6050 3700 6050 3600
+Connection ~ 6050 3600
+Wire Wire Line
+	6050 3600 6200 3600
+Wire Wire Line
+	5850 3150 6000 3150
+Connection ~ 6000 3150
+Wire Wire Line
+	6000 3150 6200 3150
+Wire Wire Line
+	5000 3150 5150 3150
+Connection ~ 5150 3150
+Wire Wire Line
+	5150 3150 5350 3150
+$EndSCHEMATC

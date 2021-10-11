@@ -1,0 +1,17 @@
+Benefits of design
+-Save half the cost by implementing a trim circuit for 12V-13V
+-Snappable board design for ease of desoldering
+-Using cheap and high voltage pheonix connectors (£1.90 ea) (link: https://uk.rs-online.com/web/p/pcb-terminal-blocks/8045095/)
+
+Fixes to make:
+- hole alignment for mounting and -VOUT & +VOUT(use the tinkercad link for verification)
+- Change the 12 header to 10 pin header (done)\
+- no inventor to get dimensions fitting
+
+Trim design link using another product by corsel isolated DC-DC converter
+
+https://uk.rs-online.com/web/p/isolated-dc-dc-converters/5004136/
+https://docs.rs-online.com/6d01/0900766b815d4b88.pdf
+
+3D model of the dbs module to insert in inventor 3D CAD
+link: https://www.3dcontentcentral.com/Download-Model.aspx?catalogid=171&id=12760
